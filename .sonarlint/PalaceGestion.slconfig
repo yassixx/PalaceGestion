@@ -1,0 +1,16 @@
+{
+  "ServerUri": "http://localhost:9000/",
+  "Organization": null,
+  "ProjectKey": "PalaceGestion",
+  "ProjectName": "PalaceGestion",
+  "Profiles": {
+    "CSharp": {
+      "ProfileKey": "AYfUzFngQ9h0T_072Acv",
+      "ProfileTimestamp": "2023-05-01T00:52:54Z"
+    },
+    "Secrets": {
+      "ProfileKey": "AYfUzFh_Q9h0T_072ARZ",
+      "ProfileTimestamp": "2023-05-01T00:52:54Z"
+    }
+  }
+}
