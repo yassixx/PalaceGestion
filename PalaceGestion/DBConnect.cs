@@ -4,8 +4,11 @@ namespace PalaceGestion
 {
     class DBConnect
     {
+
+        private readonly MySqlConnection connection = new MySqlConnection("datasource=onedomaine.tech;port=3306;username=u571651200_adminbddy2;password=AdmInbddMF23;database=u571651200_hoteldata");
+
         // Créez une connexion à la base de données MySQL avec les informations d'identification spécifiées
-        private readonly MySqlConnection connection = new MySqlConnection("datasource=localhost;port=3306;username=root;password=;database=hotel_data");
+        //private readonly MySqlConnection connection = new MySqlConnection("datasource=localhost;port=3306;username=root;password=;database=hotel_data");
         //bdd de test
         // private readonly MySqlConnection connection = new MySqlConnection("datasource=localhost;port=3306;username=root;password=;database=hotel-data_test");
 
