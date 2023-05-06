@@ -5,7 +5,7 @@ namespace PalaceGestion
     class DBConnect
     {
 
-        private readonly MySqlConnection connection = new MySqlConnection("datasource=onedomaine.tech;port=3306;username=u571651200_adminbddy2;password=AdmInbddMF23;database=u571651200_hoteldata");
+        private readonly MySqlConnection connection = new MySqlConnection("**********************");
 
         // Créez une connexion à la base de données MySQL avec les informations d'identification spécifiées
         //private readonly MySqlConnection connection = new MySqlConnection("datasource=localhost;port=3306;username=root;password=;database=hotel_data");
